@@ -1,2 +1,2 @@
 # quebec
-Intro to WeS WS16/17 quebec repo
+This repo contains all asignments from the Intro to Web Science course taken at the University of Koblenz-Landau
