@@ -1,4 +1,4 @@
-import socket
+import socket, json
 
 def Main():
     host = 'localhost'
@@ -11,11 +11,10 @@ def Main():
     mySocket = socket.socket()
     mySocket.connect((host, port))
 
-    message = '{}#{}#{}'.format(user_name, user_age, user_id)
-    mySocket.send(message.encode())
-    data = mySocket.recv(1024).decode()
+    message = dict({'name' : user_name, 'age': user_age, 'id': user_id})
+    mySocket.send(json.dumps(message).encode())
 
-    print(data)
+    print(message)
 
     mySocket.close()
 

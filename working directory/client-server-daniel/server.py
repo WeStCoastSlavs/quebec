@@ -1,4 +1,5 @@
 import socket
+import json
 
 
 def Main():
@@ -14,10 +15,10 @@ def Main():
     data = conn.recv(1024).decode()
     if not data:
         return
-    user_info = str(data).split('#')
-    data = 'Name: {}\nAge: {}\nMatrikelnummer: {}'.format(user_info[0], user_info[1], user_info[2])
-    conn.send(data.encode())
+    user_info = json.loads(data)
+    data = 'Name: {}\nAge: {}\nMatrikelnummer: {}'.format(user_info['name'], user_info['age'], user_info['id'])
 
+    print(data)
     conn.close()
 
 
