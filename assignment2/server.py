@@ -17,11 +17,11 @@ conn, addr = s.accept()
 
 #print 'Connection address:', addr
 while True:
-    data = conn.recv(BUFFER_SIZE)
+    data = conn.recv(BUFFER_SIZE).decode()
     if not data: break
     pack = json.loads(data)
-    print """Name: {};
+    print ("""Name: {};
 Age: {};
-Matrikelnummer: {};""".format(pack["name"],pack["age"], pack["matrikelnummer"])
+Matrikelnummer: {};""".format(pack["name"],pack["age"], pack["matrikelnummer"]))
     #conn.send(data)  # echo
     #conn.close()
