@@ -1,12 +1,8 @@
 # coding: utf-8
-
-url = "www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#InTheDocument"
-
 def get_protocol(url):
     if "://" not in url:
         return ""
     return url.split(":")[0]
-
 
 def get_port(url):
     if get_protocol(url) != "":
@@ -19,7 +15,6 @@ def get_port(url):
             return url.split(":")[1].split("/")[0]
         else:
             return ""
-
 
 def get_params(url):
     if "?" not in url:
@@ -58,15 +53,12 @@ def get_params(url):
         splited = splited.split("#")[0]
     return splited.split("&")
 
-
 def get_fragment(url):
     if "#" not in url:
         return ""
     else:
         return url.split("#")[1]
 
-
-url = "http://www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#InTheDocument"
 def get_path(url):
     x = url
     if get_protocol(x) != "":
@@ -88,9 +80,4 @@ def get_path(url):
         x = ""
     return x
 
-
-# In[33]:
-
-url = "www.example.com"
-get_path(url)
 
