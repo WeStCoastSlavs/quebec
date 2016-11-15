@@ -18,7 +18,7 @@ conn, addr = s.accept()
 
 #print 'Connection address:', addr
 while True:
-    data = conn.recv(BUFFER_SIZE)
+    data = conn.recv(BUFFER_SIZE).decode()
     if not data: break
     url = data.strip("\r \n")
     print (
