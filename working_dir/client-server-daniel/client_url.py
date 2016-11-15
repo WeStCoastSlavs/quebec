@@ -9,8 +9,9 @@ def Main():
     mySocket = socket.socket()
     mySocket.connect((host, port))
 
-    message = dict({'url': user_url})
-    mySocket.send(json.dumps(message).encode())
+    # message = dict({'url': user_url})
+    message = user_url + "\r \n"
+    mySocket.send(message.encode())
 
     print(message)
 

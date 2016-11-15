@@ -16,28 +16,39 @@ def Main():
     data = conn.recv(1024).decode()
     if not data:
         return
-    user_info = json.loads(data)
-    uri = user_info['url']
-    url = {}
-    if '#' in uri:
-        url['fragment'] = uri.split('#')[1]
-        uri = uri.split('#')[0]
-    if '?' in uri:
-        url['params'] = uri.split('?')[1].split('&')
-        uri = uri.split('?')[0]
-    colon = uri.split(':')
-    url['protocol'] = colon[0]
-    if (len(colon) == 2):
-        # no port number
-        url['domain'] = colon[1].split('/')[2]
-        url['path'] = colon[1][len(url['domain']) + 2:]
-    else:
+    url = data.strip("\r \n")
+    print("Url: " + url)
+    url_dict = {}
+    if '#' in url:  # contains fragment?
+        url_dict['fragment'] = url.split('#')[1]
+        url = url.split('#')[0]
+    if '?' in url:  # contains params?
+        url_dict['params'] = url.split('?')[1].split('&')
+        url = url.split('?')[0]
+    colon = url.split(':')
+    if (len(colon) == 1):  # no port, no protocol
+        url_dict['protocol'] = 'unknown'
+        url_dict['domain'] = colon[0].split('/')[0]
+        url_dict['path'] = colon[0][len(url_dict['domain']):]
+    elif (len(colon) == 2):
+        # no port number, or protocol
+        if (colon[1][0] == "/"):  # protocol available
+            url_dict['protocol'] = colon[0]
+            url_dict['port_num'] = 'unknown'
+            url_dict['domain'] = colon[1].split('/')[2]
+            url_dict['path'] = colon[1][len(url_dict['domain']) + 2:]
+        else:  # port num available
+            url_dict['port_num'] = colon[1].split('/')[0]
+            url_dict['domain'] = colon[0]
+            url_dict['path'] = colon[1][len(url_dict['port_num'])]
+    elif (len(colon) == 3):
         # with port number
-        url['port_num'] = colon[2].split('/')[0]
-        url['domain'] = colon[1][2:]
-        url['path'] = colon[2][len(url['port_num']):]
-    url['subdomain'] = url['domain'].split('.')
-    pprint(url)
+        url_dict['protocol'] = colon[0]
+        url_dict['port_num'] = colon[2].split('/')[0]
+        url_dict['domain'] = colon[1][2:]
+        url_dict['path'] = colon[2][len(url_dict['port_num']):]
+    url_dict['subdomains'] = url_dict['domain'].split('.')
+    pprint(url_dict)
     conn.close()
 
 
