@@ -1,6 +1,6 @@
 import socket
 import json
-import working_dir.assignment3.our_pars_lib as opl
+import our_pars_lib as opl
 
 TCP_IP = '127.0.0.1'
 TCP_PORT = 8080
