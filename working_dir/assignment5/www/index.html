@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<h1 >Display data from the Server </h1 >
+    The following line changes on the servers command line
+input: <br >
+<span id="response" style =" color:red">
+This will be replaced by messages from the server
+</span >
+</body >
+</html>
+
+<script>
+    function sendRequest(){
+        var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       span_tag = document.getElementById("response");
+        span_tag.innerHTML = this.responseText;
+        sendRequest();
+    }
+};
+xhttp.open("GET", "message", true);
+xhttp.send();
+    }
+        sendRequest();
+</script>
