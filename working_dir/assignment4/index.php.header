@@ -1,17 +1,18 @@
-HTTP/1.1 200 OK
-Date: Sat, 19 Nov 2016 15:42:35 GMT
-Server: Apache/2.4.7 (Ubuntu)
-X-Powered-By: PHP/5.5.9-1ubuntu4.20
-X-Drupal-Cache: HIT
-Etag: "1479557753-0"
-Content-Language: en
-X-Frame-Options: SAMEORIGIN
-X-UA-Compatible: IE=edge,chrome=1
-X-Generator: Drupal 7 (http://drupal.org)
-Link: <http://west.uni-koblenz.de/en/studying/courses/ws1617/introduction-to-web-science>; rel="canonical",<http://west.uni-koblenz.de/en/node/4959>; rel="shortlink"
-Cache-Control: public, max-age=0
-Last-Modified: Sat, 19 Nov 2016 12:15:53 GMT
-Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Vary: Cookie,Accept-Encoding
-Connection: close
+HTTP/1.1 200 OK
+Date: Tue, 22 Nov 2016 18:25:20 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.20
+X-Drupal-Cache: HIT
+Etag: "1479838993-0"
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge,chrome=1
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://west.uni-koblenz.de/en/studying/courses/ws1617/introduction-to-web-science>; rel="canonical",<http://west.uni-koblenz.de/en/node/4959>; rel="shortlink"
+Cache-Control: public, max-age=0
+Last-Modified: Tue, 22 Nov 2016 18:23:13 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8

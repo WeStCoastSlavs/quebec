@@ -1,3 +1,4 @@
+984e
 <!DOCTYPE html>
   <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
   <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
@@ -17,28 +18,62 @@
 <link rel="apple-touch-icon-precomposed" href="http://west.uni-koblenz.de/sites/all/themes/westomega/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
 <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
 <link rel="shortcut icon" href="http://west.uni-koblenz.de/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
-<meta name="description" content="Online Course Materials:Â  The materials for the first part of the course can be found at: https://en.wikiversity.org/wiki/Web_ScienceSlide decks:" />
+<meta name="description" content="Online Course Materials:  The materials for the first part of the course can be found at: https://en.wikiversity.org/wiki/Web_ScienceSlide decks:" />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="http://west.uni-koblenz.de/en/studying/courses/ws1617/introduction-to-web-science" />
 <link rel="shortlink" href="http://west.uni-koblenz.de/en/node/4959" />
   <title>Introduction to Web Science | Institute WeST</title>
-  <link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_6WfNNtFqdHUL1n8-6B-OBx-l9e0f19aLWVeGVkQi1eE.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_O4JR1zzWac2sO5I06GBGZTl6QokAp60ljNuexj1QP1s.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_dFbd1_ired4pcPHOspxIVhbkLQ12bGWyQ0zg617hgBY.css" media="all" />
+  <style>
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/system/system.base.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/ldap/ldap_user/ldap_user.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/date/date_api/date.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/footer_sitemap/footer_sitemap.css?ogsias");
+@import url("http://west.uni-koblenz.de/modules/node/node.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/views/css/views.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/user/user.base.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/ckeditor/css/ckeditor.css?ogsias");
+</style>
+<style>
+@import url("http://west.uni-koblenz.de/sites/all/modules/ctools/css/ctools.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/ldap/ldap_servers/ldap_servers.admin.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/lightbox2/css/lightbox.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/panels/css/panels.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/nice_menus/css/nice_menus.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/modules/nice_menus/css/nice_menus_default.css?ogsias");
+</style>
+<style>
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/westomega.normalize.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/westomega.hacks.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/westomega.styles.css?ogsias");
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/js/bx/jquery.bxslider.css?ogsias");
+</style>
 
 <!--[if lte IE 8]>
-<link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_Td63KDvwSTq6xhakB2uEzh3R0N1Y1CaG_SlYwir5obU.css" media="all" />
+<style>
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/westomega.no-query.css?ogsias");
+</style>
 <![endif]-->
-<link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<style>
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/layouts/westbasic/westbasic.layout.css?ogsias");
+</style>
 
 <!--[if lte IE 8]>
-<link type="text/css" rel="stylesheet" href="http://west.uni-koblenz.de/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<style>
+@import url("http://west.uni-koblenz.de/sites/all/themes/westomega/css/layouts/westbasic/westbasic.layout.no-query.css?ogsias");
+</style>
 <![endif]-->
   <script src="http://west.uni-koblenz.de/sites/default/files/js/js_Lgmy0fYzwBnlDTPEJn1InAiw4qFLsJ3WKydGw9P7cO0.js"></script>
 <script src="http://west.uni-koblenz.de/sites/default/files/js/js_45JniWrXrY8q8AEVIV6GFupI5scizolw-FrujytMgiY.js"></script>
 <script src="http://west.uni-koblenz.de/sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
-<script src="http://west.uni-koblenz.de/sites/all/modules/lightbox2/js/lightbox.js?1479557753"></script>
+<script src="http://west.uni-koblenz.de/sites/all/modules/lightbox2/js/lightbox.js?1479838993"></script>
 <script src="http://west.uni-koblenz.de/sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
 <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-33193391-4", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 <script src="http://west.uni-koblenz.de/sites/default/files/js/js_IVhTInL2EcoxVH81U_mVx30u1-L9nL1OQu5Hrdn9O7c.js"></script>
@@ -51,7 +86,7 @@
 	  <div class="l-region l-region--topbar">
     <div id="block-block-4" class="block block--block block--block-4">
         <div class="block__content">
-    <div id="top_uni"><a href="http://www.uni-koblenz.de" target="_blank" title="UniversitÃ¤t Koblenz Landau"><img alt="UniversitÃ¤t Koblenz Landau" src="/sites/all/themes/westomega/images/uni-logo-original.png" /></a></div>
+    <div id="top_uni"><a href="http://www.uni-koblenz.de" target="_blank" title="Universität Koblenz Landau"><img alt="Universität Koblenz Landau" src="/sites/all/themes/westomega/images/uni-logo-original.png" /></a></div>
 <div id="top_kontakt"><a href="http://west.uni-koblenz.de/en/about-us/contact" title="Kontakt"><img src="/sites/all/themes/westomega/images/mail.png" /></a></div>
 <div id="top_social"><a href="https://www.facebook.com/InstituteWeST" target="_blank" title="facebook"><img src="/sites/all/themes/westomega/images/facebook_blue.png" /></a> <a href="https://west.uni-koblenz.de/feed.xml" target="_blank" title="WeST RSS Feed"><img alt="feed.png" src="/sites/default/files/cms/feed.png" style="width:26px;height:26px;" /></a> <a href="https://twitter.com/WeST_Ko" target="_blank" title="twitter"><img src="/sites/all/themes/westomega/images/twitter_blue.png" /></a></div>
   </div>
@@ -64,7 +99,7 @@
   <label class="element-invisible" for="edit-search-block-form--2">Search </label>
  <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-dsrubAYouzszwOPZQ4Fh3Bn-6LjYzah7_r3MNrsTtZU" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-feMUhBEm_RGiH8nuf4_CRaWjXclJXiuEAGwxFmbFU_M" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -107,7 +142,7 @@
     <div id="stage">  <div class="l-region l-region--stage">
     <div id="block-views-headerbild-block-view-block-3" class="block block--views block--views-headerbild-block-view-block-3">
         <div class="block__content">
-    <div class="view view-headerbild-block-view view-id-headerbild_block_view view-display-id-block_3 view-dom-id-390400236603d9118944a3dbe4922d22">
+    <div class="view view-headerbild-block-view view-id-headerbild_block_view view-display-id-block_3 view-dom-id-e46b8358cadf29cae55bf2924959fcfb">
         
   
   
@@ -289,7 +324,7 @@ Assignments</h3>
 <tbody>
 <tr>
 <td style="background-color:#FFF8DC; vertical-align:top">Dozent(in)</td>
-<td>RenÃ© Pickhardt<br />
+<td>René Pickhardt<br />
 			Prof. Dr. Steffen Staab<br />
 			Korok Sengputa</td>
 </tr>
@@ -305,13 +340,13 @@ Assignments</h3>
 </tbody>
 </table>
 <div>
-<p><a href="https://klips.uni-koblenz-landau.de/v/86638"><strong>Ãœbung</strong></a> - <strong>Ãœbung zu Introduction to Web Science</strong></p>
+<p><a href="https://klips.uni-koblenz-landau.de/v/86638"><strong>Übung</strong></a> - <strong>Übung zu Introduction to Web Science</strong></p>
 <p>Veranstaltungsnummer: 0432026</p>
 <table border="0" cellpadding="2">
 <tbody>
 <tr>
 <td style="background-color:#FFF8DC; vertical-align:top">Dozent(in)</td>
-<td>RenÃ© Pickhardt<br />
+<td>René Pickhardt<br />
 			Prof. Dr. Steffen Staab<br />
 			Korok Sengputa</td>
 </tr>
@@ -347,8 +382,8 @@ Assignments</h3>
 </div><div class="field__item odd">	<div id="node-28" class="node node--person en node--token node--person--token clearfix" about="/en/about-us/team/ren%C3%A9-pickhardt" typeof="sioc:Item foaf:Document" role="article" class="node node--person en node--token node--person--token">
 
 	
-			<h2 class="node__title"><a href="/en/about-us/team/ren%C3%A9-pickhardt">RenÃ© Pickhardt</a></h2>
-		<span property="dc:title" content="RenÃ© Pickhardt" class="rdf-meta element-hidden"></span>
+			<h2 class="node__title"><a href="/en/about-us/team/ren%C3%A9-pickhardt">René Pickhardt</a></h2>
+		<span property="dc:title" content="René Pickhardt" class="rdf-meta element-hidden"></span>
 	
 	<div class="content" class="node__content">
 	<div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="/en/about-us/team/ren%C3%A9-pickhardt"><img typeof="foaf:Image" src="http://west.uni-koblenz.de/sites/default/files/styles/personen_bild/public/aboutus/team/persons/west-team-rene-pickhardt.png?itok=ly09Gli7" width="180" height="220" alt="" /></a></div></div></div><div class="field field--name-field-e-mail field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"> rpickhardt@uni-koblenz.de</div></div></div>	<br />
@@ -389,7 +424,7 @@ Assignments</h3>
     <div id="block-views-open-positions-block" class="block block--views block--views-open-positions-block">
         <h2 class="block__title">Open positions</h2>
       <div class="block__content">
-    <div class="view view-open-positions view-id-open_positions view-display-id-block view-dom-id-39b5065065ef581d9bd2b5ea63139100">
+    <div class="view view-open-positions view-id-open_positions view-display-id-block view-dom-id-fb70a78b8e5f8afcd4eddff6e343c462">
         
   
   
@@ -410,7 +445,7 @@ Assignments</h3>
 <div id="block-views-news-view-en-block-2" class="block block--views block--views-news-view-en-block-2">
         <h2 class="block__title">Aktuelles</h2>
       <div class="block__content">
-    <div class="view view-news-view-en view-id-news_view_en view-display-id-block_2 view-dom-id-7d1c2444d5d4076663857b7dc6ae1b31">
+    <div class="view view-news-view-en view-id-news_view_en view-display-id-block_2 view-dom-id-4c5d9fec411590f42a2b2059ec9e88c0">
         
   
   
@@ -518,3 +553,6 @@ Assignments</h3>
 
 </script>  </body>
 </html>
+
+0
+
