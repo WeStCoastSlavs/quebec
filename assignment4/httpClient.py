@@ -12,7 +12,7 @@ def parse_header(header):
             elif line.find('image') != -1:
                 return 'wb'
             else:
-                raise Exception("UNKNOWN FILE TYPE")
+                raise Exception("UNKNOWN FILE TYPE : " + line)
 
 # saving text files
 def save_text(filename, body, header_data):
@@ -32,6 +32,7 @@ def make_request(url_p):
     url = urlparse(url_p)
     if url.path.find('.') != -1:
         filename = url.path.split('/')[-1]
+        path = url.path.split('/')[:-1]
     else:
         filename = 'index.php'
 
