@@ -1,0 +1,9 @@
+1) General questions with options, where you had to put True or False. Around 20 questions
+2) They give you frame from tcpdump with missing values and you need to fill the gaps and read some parts of a frame. They provided the network scheme and frames scheme
+3) They give a table with principles (e.g. Net Neutrality) and columns is layers of internet. You need to choose what principle correspondes to what level.
+4) CDF plot. They provide distribution and you need to plot on provided axis CDF distribution and provide titles to plot and axis
+5) loglog plot. They give you data points of word rank and its frequency and you need to plot them on provided loglogplot
+6) Programming task. They give you unigram frequency of letters in list of tuples [('a', 16234), ('b', 13873)....('z', 765)] and you need to write a function that takes in this distribution and returns randomly generated letter according to given distribution.
+7) Term frequency in documents. They give you 3 documents with language of 4 terms. You need to give them term frequency then find map documents to vectors, then find cosine similarity.
+😎 Graph. They provide mapping of a graph and Adjacency matrix and you need to find: set of edges, in and out degree plots, average in and out degree and something else(don't remember).
+9) Open questions regarding net neutrality and copyright.
